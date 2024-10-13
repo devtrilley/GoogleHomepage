@@ -1,0 +1,49 @@
+/* Footer/Bottom Navbar Styling */
+
+footer {
+  background-color: #171717;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 1rem 2.5rem;
+}
+
+.left-footer-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 6%;
+  white-space: nowrap;
+  min-width: 0;
+  flex-grow: 1;
+}
+
+.mid-footer-box {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+  flex-grow: 1;
+}
+
+.climate-action-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2%;
+  white-space: nowrap;
+}
+
+.leaf-icon {
+  height: 14px;
+}
+
+.right-footer-box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8%;
+  min-width: 0;
+  flex-grow: 1;
+}

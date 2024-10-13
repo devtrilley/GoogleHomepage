@@ -1,0 +1,39 @@
+/* Header and Navbar styling */
+
+a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.75rem 1.5rem;
+}
+
+nav a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+.left-nav-box {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.right-nav-box {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-icon {
+  width: 1.75rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 2.25rem;
+}

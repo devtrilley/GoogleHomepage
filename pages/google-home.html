@@ -1,0 +1,164 @@
+<!-- Code for the Google homepage of the Google assignment, replicating the 'Dark Mode' of the Google Homepage -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tom's Google</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/searchbar.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="shortcut icon" href="google-favicon.webp" type="image/x-icon" />
+  </head>
+
+  <!-- In this code "box" is used in replace the word "container" in my code -->
+  <body>
+    <header>
+      <!-- Navbar hold 2 boxes that contain our links at opposite ends of the page. Links were given a target of blank to keep user on the Google page-->
+      <nav>
+        <div class="left-nav-box">
+          <a
+            href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+            target="_blank"
+            >About</a
+          >
+          <a
+            href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US&pli=1"
+            target="_blank"
+            >Store</a
+          >
+        </div>
+        <div class="right-nav-box">
+          <a href="https://www.google.com/gmail/about/" target="_blank"
+            >Gmail</a
+          >
+          <a href="https://www.google.com/imghp?hl=en&ogbl" target="_blank"
+            >Images</a
+          >
+          <!-- Beaker, don't forget to make these links! -->
+          <a>
+            <img
+              class="header-icon"
+              src="../images/beaker.png"
+              alt="beaker icon"
+            />
+          </a>
+          <!-- Apps, as soon as I added this one, my beaker went AWOL -->
+          <a>
+            <img
+              class="header-icon"
+              src="../images/apps.png"
+              alt="application icon"
+            />
+          </a>
+          <img
+            class="profile-pic"
+            src="../images/ghost-pfp.jpeg"
+            alt="Profile Pic Photo"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Container holding the Google Logo -->
+      <div class="logo-box">
+        <img
+          class="logo"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png"
+          alt="Google Logo"
+          width="272px"
+          height="92px"
+        />
+      </div>
+
+      <!-- Container that holds input element for our searchbar as well as the icons within it -->
+      <div class="search-box">
+        <input class="search-bar" type="text" id="search-bar-one" />
+        <img
+          class="search-icon icon"
+          src="../images/search-icon.png"
+          alt="Search Icon"
+        />
+        <img class="mic-icon" src="../images/mic-icon.png" alt="Mic Icon" />
+        <img
+          class="camera-icon"
+          src="../images/camera-icon.png"
+          alt="Camera Icon"
+        />
+      </div>
+
+      <!-- Container that holds both of our button elements -->
+      <div class="button-box">
+        <button class="search-btn" type="submit" id="search-button">Google Search</button>
+        <button class="lucky-btn" type="submit">I'm Feeling Lucky</button>
+      </div>
+
+      <div class="mini-message-box">
+        <div id="usa-flag">🇺🇸</div>
+        <p>
+          Find out
+          <a
+            href="https://www.google.com/search?q=how+to+vote&oq=how+to+vote&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiDARixAxiABDIQCAEQABiDARixAxiABBiKBTINCAIQABiDARixAxiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQABgDMgcIBxAAGIAEMg0ICBAAGIMBGLEDGIAEMgcICRAAGIAE0gEINDAzNWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8"
+            target="_blank"
+            id="vote-link"
+            >how to vote</a
+          >
+          is election
+        </p>
+      </div>
+    </main>
+
+    <!-- Footer container our bottom navigation bar -->
+    <footer>
+      <div class="left-footer-box">
+        <a
+          href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+          target="_blank"
+          >Advertising</a
+        >
+        <a
+          href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/"
+          target="_blank"
+          >Business</a
+        >
+        <a
+          href="https://www.google.com/search/howsearchworks/?fg=1"
+          target="_blank"
+          >How Search works</a
+        >
+      </div>
+
+      <div class="mid-footer-box">
+        <div class="climate-action-box">
+          <img
+            class="leaf-icon"
+            src="../images/leaf-emoji.png"
+            alt="Leaf Emoji with"
+          />
+          <a
+            href="https://sustainability.google/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="
+            target="_blank"
+          >
+            <p>Our third decade of climate action: join us</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="right-footer-box">
+        <a href="https://policies.google.com/privacy?hl=en&fg=1" target="_blank"
+          >Privacy</a
+        >
+        <a href="https://policies.google.com/terms?hl=en&fg=1" target="_blank"
+          >Terms</a
+        >
+        <a href="#">Settings</a>
+      </div>
+    </footer>
+  </body>
+
+  <script src="../js/script.js"></script>
+</html>
